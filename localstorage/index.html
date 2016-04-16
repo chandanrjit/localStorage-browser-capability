@@ -1,0 +1,34 @@
+
+
+<script type="text/javascript" src="Blob.js"></script>
+<script type="text/javascript" src="FileSaver.min.js"></script>
+  <link href="bootstrap.min.css" rel="stylesheet">
+   <link href="cover.css" rel="stylesheet">
+<form>
+	<div class="container" style="margin-top:50px">
+		<div class="row">
+			<div class="alert alert-success" id="divonline"   role="alert">You are online now</div>
+			<div class="alert alert-danger" id="divoffline"   role="alert">You are offline</div>
+		</div><br>
+<br>
+
+		<div class="row">
+			<div class="col-md-8">
+	<input type="text" class="form-control" placeholder="type your message" name="data"></div>
+	<div class="col-md-4"><input type="submit" class="btn btn-lg btn-info"></div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="alert alert-info" id="dataposted"  role="alert"></div>
+
+
+	</div>
+</form>
+<script type="text/javascript" src="offline.js"></script>
+<script type="text/javascript">
+	offorms.init(document.forms[0]);
+</script>
