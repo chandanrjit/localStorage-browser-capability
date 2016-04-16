@@ -11,7 +11,6 @@
 /*global self, unescape */
 /*jslint bitwise: true, regexp: true, confusion: true, es5: true, vars: true, white: true,
   plusplus: true */
-
 /*! @source http://purl.eligrey.com/github/Blob.js/blob/master/Blob.js */
 
 (function (view) {
